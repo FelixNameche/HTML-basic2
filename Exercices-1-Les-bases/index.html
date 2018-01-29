@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h2 class="titre">Les bases de l'HTML</h2>
+    <ul>
+        <li>Les balises</li>
+        <ul>
+            <li>Les balises paires</li>
+            <li>Les balises orphelines</li>
+        </ul>
+        <li>Les attributs</li>
+        <li>La différence entre inline et block</li>
+        <li>Le markdown et l'HTML</li>
+    </ul>
+
+    <h3 class="titre">Qu'est-ce qu'une balise paire ?</h3>
+    <p>Les balises paire constitue la <strong>majorité des balises html</strong>. Ont les nommes "paire" car elle vont toujours par 2, l'une <strong>ouvre</strong> et l'autre <strong>ferme</strong>.</p>
+        <ul>
+            <li><strong>&lta&gt;</strong> qui permet de créer des liens.</li>
+            <li><strong>&ltdiv&gt;</strong> qui permet les mise en page (en complément du CSS).</li>
+            <li><strong>&ltp&gt;</strong> qui permet de créer des paragraphes.</li>
+            <li><strong>&ltul&gt;</strong> qui permet de créer des listes non-odronée.</li>
+            <li><strong>&ltbody&gt;</strong> qui permet de différencier la tête du corps d'une page html.</li>
+        </ul>
+        
+
+    <h3 class="titre">Qu'est-ce qu'une balise orpheline ?</h3>
+    <p>Les balises orphelines sont des balises qui n'ont <strong>pas besoin de balise de fermeture</strong>.</p>
+        <ul>
+            <li><strong>&ltimg&gt;</strong> qui permet d'ajouter des images.</li>
+            <li><strong>&ltbr /&gt;</strong> qui permet le retour à la ligne.</li>
+            <li><strong>&ltembed&gt;</strong> qui permet l'insertion d'une application multimédia (vidéo YouTube par exemple).</li>
+        </ul>
+        <a href="https://openclassrooms.com/forum/sujet/balise-orpheline-aide" target="_blank" ><h6>sources</h6></a> <a href="http://www.codeshttp.com/baliseh.htm" target="_blank" ><h6>sources</h6></a>
+        
+    <h3 class="titre">Qu'est-ce qu'un attribut ?</h3>
+    <p>Un attribut permet d'ajouter divers <strong>paramètres supplémentaire</strong> à certaines balises. Par exemple, l'attribut "<i>_blank</i>" placé dans une balise <strong>a</strong> permet d'ouvrir le lien dans une nouvelle fenètre.</p>
+
+    <h3 class="titre">Quel est la différence entre les balises de type Inline et Block ?</h3>
+    <p>La différence entre un élément de type inline et un élément de type Block est que les <strong>"block"</strong> peuvent contenir <strong>plusieurs balises</strong> différentes alors que les éléments <strong>"inline"</strong> ne peuvent contenir qu'une <strong>seule balise</strong>. A noter que depuis la venue du HTML5 ces notions ont disparue.</p>
+        <ul><p class="sous-titre">Exemples de balises Inline</p>
+            <li><strong>&ltspan&gt;</strong></li>
+            <li><strong>&ltstrong&gt;</strong></li>
+            <li><strong>&ltimg<&gt;</strong></li>
+        </ul>
+        <ul><p class="sous-titre">Exemples de balises Block</p>
+            <li><strong>&ltdiv&gt;</strong></li>
+            <li><strong>&lth1&gt;, &lth2&gt;, ..., &lth6&gt;</strong></li>
+            <li><strong>&lttable&gt;</strong></li>
+        </ul>
+        <a href="https://www.alsacreations.com/tuto/lire/530-La-structure-des-balises-bloc-et-en-ligne.html" target="_blank" ><h6>sources</h6></a>
+
+    <h3 class="titre">Comparaison entre le Markdown et l'HTML</h3>
+        <p class="sous-titre">En HTML</p>
+        <p class="sous-sous-titre">Image</p>
+        <xmp><img src="https://cdn-images-1.medium.com/max/1200/1*xkEpNboRERK0t5W63Z24fA.png" /></xmp>
+        <p class="sous-sous-titre">Citation</p>
+        <xmp><blockquote>To be or not to be. That is the question.</blockquote></xmp>
+        <p class="sous-sous-titre">Vidéo YouTube</p>
+        <xmp><a href="https://www.youtube.com/watch?v=_64dvSKLh88"></a></xmp>
+
+        <p class="sous-titre">En Markdown</p>
+        <p class="sous-sous-titre">Image</p>
+        <xmp>![becode logo](https://cdn-images-1.medium.com/max/1200/1*xkEpNboRERK0t5W63Z24fA.png)</xmp>
+        <p class="sous-sous-titre">Citation</p>
+        <xmp>> To be or not to be. That is the question.</xmp>
+        <p class="sous-sous-titre">Vidéo YouTube</p>
+        <xmp><https://www.youtube.com/watch?v=_64dvSKLh88></xmp>
+
+</body>
+</html>

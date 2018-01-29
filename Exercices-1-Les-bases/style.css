@@ -1,0 +1,15 @@
+.titre
+{
+    color: blue;
+    font-family: "Arial";
+}
+
+.sous-titre
+{
+    color: teal;
+}
+
+.sous-sous-titre
+{
+    color: lightslategrey;
+}
