@@ -1,9 +1,21 @@
-p 
+.button 
     {
-    display: block;
-    border: 1px solid #000000;
-    margin-left: 0;
-    margin-right: auto;
-    width: 200px;
+	width:110px;
+	cursor:pointer;
+	text-transform:capitalize;
+	border:none;
+	padding:6px 0 6px 0;
+	border-radius:2px;
+	box-shadow:2px 2px 6px #999;
+	background:#fff;
+	font:bold 13px Arial;
+    color:#555;
+    margin: auto;
+    text-align: center;
+}
+
+.center
+    {
+    margin: auto;
     text-align: center;
 }
